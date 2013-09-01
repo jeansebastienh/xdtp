@@ -16,14 +16,6 @@ This has to be done only once. Now the PEAR Installer can be used to install pac
 
     pear install afdn/xdtp
 
-Documentation
--------------
-
-The documentation for PHPUnit is available in different formats:
-
-* [English, multiple HTML files](http://www.phpunit.de/manual/3.5/en/index.html)
-* [English, single HTML file](http://www.phpunit.de/manual/3.5/en/phpunit-book.html)
-
 Mailing Lists
 -------------
 
