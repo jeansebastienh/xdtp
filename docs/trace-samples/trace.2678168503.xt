@@ -1,0 +1,46 @@
+Version: 2.1.0
+TRACE START [2011-02-22 20:22:59]
+1	0	0	0.000134	51288	{main}	1		C:\workspace\xdebug-php\docs\test.php	0
+2	1	0	0.000693	70128	require_once	1	C:\workspace\xdebug-php\docs\_main.php	C:\workspace\xdebug-php\docs\test.php	4
+3	2	0	0.000786	70648	Calculatrice->calculDivers	1		C:\workspace\xdebug-php\docs\_main.php	45
+4	3	0	0.000861	71000	Calculatrice->soustraction	1		C:\workspace\xdebug-php\docs\_main.php	31
+5	4	0	0.000929	71304	Calculatrice->checkParams	1		C:\workspace\xdebug-php\docs\_main.php	14
+6	5	0	0.000997	71568	func_get_args	0		C:\workspace\xdebug-php\docs\_main.php	36
+6	5	1	0.001063	71800
+6	6	0	0.001129	71872	is_numeric	0		C:\workspace\xdebug-php\docs\_main.php	37
+6	6	1	0.001196	71872
+6	7	0	0.001261	71872	is_numeric	0		C:\workspace\xdebug-php\docs\_main.php	37
+6	7	1	0.001325	71872
+5	4	1	0.001390	71400
+5	8	0	0.001452	71352	sleep	0		C:\workspace\xdebug-php\docs\_main.php	15
+5	8	1	5.000673	71352
+4	3	1	5.000849	71208
+4	9	0	5.000921	71112	Calculatrice->somme	1		C:\workspace\xdebug-php\docs\_main.php	31
+5	10	0	5.000993	71328	Calculatrice->checkParams	1		C:\workspace\xdebug-php\docs\_main.php	7
+6	11	0	5.001094	71592	func_get_args	0		C:\workspace\xdebug-php\docs\_main.php	36
+6	11	1	5.001162	71824
+6	12	0	5.001225	71896	is_numeric	0		C:\workspace\xdebug-php\docs\_main.php	37
+6	12	1	5.001293	71896
+6	13	0	5.001355	71896	is_numeric	0		C:\workspace\xdebug-php\docs\_main.php	37
+6	13	1	5.001420	71896
+5	10	1	5.001485	71424
+5	14	0	5.001547	71376	sleep	0		C:\workspace\xdebug-php\docs\_main.php	8
+5	14	1	7.000637	71376
+4	9	1	7.000785	71232
+4	15	0	7.000879	71136	Calculatrice->division	1		C:\workspace\xdebug-php\docs\_main.php	31
+5	16	0	7.000956	71448	Calculatrice->checkParams	1		C:\workspace\xdebug-php\docs\_main.php	21
+6	17	0	7.001023	71712	func_get_args	0		C:\workspace\xdebug-php\docs\_main.php	36
+6	17	1	7.001088	71944
+6	18	0	7.001151	72016	is_numeric	0		C:\workspace\xdebug-php\docs\_main.php	37
+6	18	1	7.001216	72016
+6	19	0	7.001277	72016	is_numeric	0		C:\workspace\xdebug-php\docs\_main.php	37
+6	19	1	7.001353	72016
+5	16	1	7.001415	71544
+5	20	0	7.001475	71496	sleep	0		C:\workspace\xdebug-php\docs\_main.php	22
+5	20	1	15.000489	71496
+4	15	1	15.000642	71256
+3	2	1	15.000711	70944
+2	1	1	15.000941	70608
+1	0	1	15.001073	68288
+			14.999999	8200
+TRACE END   [2011-02-22 20:23:14]

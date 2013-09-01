@@ -1,0 +1,12 @@
+Version: 2.0.5
+TRACE START [2009-07-18 07:53:04]
+1	0	0	0.014072	54648	{main}	1		C:\wamp\www\test.php	0
+2	1	0	0.014600	54648	function1	1		C:\wamp\www\test.php	23
+3	2	0	0.014917	54712	function11	1		C:\wamp\www\test.php	6
+3	2	1	0.015212	54760
+2	1	1	0.015490	54760
+2	3	0	0.015767	54760	function2	1		C:\wamp\www\test.php	24
+2	3	1	0.016120	54760
+1	0	1	0.016394	54760
+			0.015616	15208
+TRACE END   [2009-07-18 07:53:04]

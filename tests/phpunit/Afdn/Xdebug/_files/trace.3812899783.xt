@@ -1,0 +1,12 @@
+Version: 2.1.0
+File format: 2
+TRACE START [2011-03-15 19:31:12]
+1	0	0	0.000167	51368	{main}	1		C:\workspace\xdebug-php\docs\trace-samples\trace.2678168503\test.php	0
+2	1	0	0.000903	70944	require_once	1	C:\workspace\xdebug-php\docs\trace-samples\trace.2678168503\_main.php	C:\workspace\xdebug-php\docs\trace-samples\trace.2678168503\test.php	4
+2	1	1	15.001814	71424
+1	0	1	15.001879	69104
+1	21	0	15.001955	64312	Calculatrice->__destruct	1		C:\workspace\xdebug-php\docs\trace-samples\trace.2678168503\_main.php	0
+1	21	1	15.002024	64336
+			15.015623	8200
+TRACE END   [2011-03-15 19:31:27]
+

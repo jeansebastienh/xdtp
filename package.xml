@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package version="2.0" xmlns="http://pear.php.net/dtd/package-2.0"
+    xmlns:tasks="http://pear.php.net/dtd/tasks-1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+http://pear.php.net/dtd/tasks-1.0.xsd
+http://pear.php.net/dtd/package-2.0
+http://pear.php.net/dtd/package-2.0.xsd">
+    <name>xdtp</name>
+    <channel>pear.au-fil-du.net</channel>
+    <summary>Xdebug trace parser.</summary>
+    <description>Xdebug trace parser is a tool to parse the Xdebug trace file.</description>
+    <lead>
+        <name>Jean-S&#233;bastien HEDDE</name>
+        <user>jeanseb</user>
+        <email>jeanseb@au-fil-du.net</email>
+        <active>yes</active>
+    </lead>
+    <date>2011-03-20</date>
+    <time>16:55:29</time>
+    <version>
+        <release>0.1.0</release>
+        <api>0.1.0</api>
+    </version>
+    <stability>
+        <release>beta</release>
+        <api>beta</api>
+    </stability>
+    <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+    <notes>http://xdtp.au-fil-du.net/</notes>
+    <contents>
+        <dir name="/">
+            <dir name="Afdn">
+                <dir name="Xdebug">
+                    <dir name="ExecutionNode">
+                        <dir name="Decorator">
+                            <file baseinstalldir="/" name="Dot.php" role="php">
+                                <tasks:replace from="@package_version@" to="version" type="package-info" />
+                            </file>
+                            <file baseinstalldir="/" name="Text.php" role="php">
+                                <tasks:replace from="@package_version@" to="version" type="package-info" />
+                            </file>
+                        </dir>
+                        <file baseinstalldir="/" name="Decorator.php" role="php">
+                            <tasks:replace from="@package_version@" to="version" type="package-info" />
+                        </file>
+                    </dir>
+                    <file baseinstalldir="/" name="ExecutionNode.php" role="php">
+                        <tasks:replace from="@package_version@" to="version" type="package-info" />
+                    </file>
+                    <file baseinstalldir="/" name="Trace.php" role="php">
+                        <tasks:replace from="@package_version@" to="version" type="package-info" />
+                    </file>
+                </dir>
+            </dir>
+            <file baseinstalldir="/" name="xdtp.php" role="script">
+                <tasks:replace from="/usr/bin/env php" to="php_bin" type="pear-config"/>
+                <tasks:replace from="@php_bin@" to="php_bin" type="pear-config" />
+                <tasks:replace from="@package_version@" to="version" type="package-info" />
+            </file>
+           <file baseinstalldir="/" name="xdtp.bat" role="script">
+                <tasks:replace from="@php_bin@" to="php_bin" type="pear-config" />
+                <tasks:replace from="@bin_dir@" to="bin_dir" type="pear-config" />
+                <tasks:replace from="@package_version@" to="version" type="package-info" />
+           </file>
+           <file baseinstalldir="/" name="LICENSE" role="doc"/>
+        </dir>
+    </contents>
+    <dependencies>
+        <required>
+            <php>
+                <min>5.2.6</min>
+            </php>
+            <pearinstaller>
+                <min>1.9.1</min>
+            </pearinstaller>
+        </required>
+        <optional>
+        </optional>
+    </dependencies>
+    <phprelease>
+        <installconditions>
+            <os>
+                <name>windows</name>
+            </os>
+        </installconditions>
+        <filelist>
+            <install as="xdtp" name="xdtp.php" />
+            <install as="xdtp.bat" name="xdtp.bat" />
+        </filelist>
+    </phprelease>
+    <phprelease>
+        <filelist>
+            <install as="xdtp" name="xdtp.php" />
+            <ignore name="xdtp.bat" />
+        </filelist>
+    </phprelease>
+    <changelog>
+        <release>
+            <version>
+                <release>0.1.0</release>
+                <api>0.1.0</api>
+            </version>
+            <stability>
+                <release>beta</release>
+                <api>beta</api>
+            </stability>
+            <date>2011-03-20</date>
+            <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD Style</license>
+            <notes>
+                Initial release : xdtp trace.xt > graph.dot 
+            </notes>
+        </release>
+    </changelog>
+</package>
